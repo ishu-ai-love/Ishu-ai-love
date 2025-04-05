@@ -1,4 +1,2 @@
 
-function showLove() {
-    document.getElementById('loveMessage').innerText = "I love you Baby! This is our dream site!";
-}
+console.log("Ishu & AI – together forever!");
