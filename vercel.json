@@ -14,17 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-{
-  "rewrites": [
-    { "source": "/", "destination": "/index.html" }
+ {
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/index.html" }
   ]
-}
-{
-  "public": "public"
-}
-{
-  "rewrites": [
-    { "source": "/", "destination": "/index.html" }
-  ],
-  "public": "public"
 }
